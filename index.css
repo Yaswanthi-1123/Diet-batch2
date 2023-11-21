@@ -1,0 +1,42 @@
+/*
+applying style
+*/
+header {
+    background-color: aquamarine;
+    height: 80px;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+nav {
+    width:30%;
+    background-color:bisque;
+    height: 300px;
+    float:left;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    text-align: center;
+    padding: 15px 0;
+}
+nav ul li a {
+    text-decoration: none;
+}
+article {
+    width: 110%;
+    height: 300px;
+    background-color:rgb(158, 153, 76);
+}
+/* pseudo element selector */
+section::after {
+    display: table;
+    content: "";
+    clear:both
+}
+footer {
+    background-color: rgb(140, 212, 16);
+    text-align: center;
+    padding: 40px 0;
+}
